@@ -10,7 +10,7 @@ public class MainClass {
   public static void main(String[] args) throws JsonParseException, JsonMappingException, IOException {
     JSONBuilder jsonBuilder = new JSONBuilder("book.json");
     jsonBuilder.build();
-
+    //todo
     singleton.model.Element myBook = jsonBuilder.getResult();
     myBook.print();
   }
